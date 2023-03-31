@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KWEB Survey Page</title>
+    </head>
+<body>
+<div class="page-heading">
+    <h1>KWEB Survey Page</h1>
+    <div id="KWEB logo">
+        <img src="https://i.imgur.com/hSSFVSw.png"
+        alt="KWEB logo"
+        width="300">
+    </div>
+    <p>
+        <a href="https://kwebofficial.com/" 
+        title="KWEB Homepage" 
+        target="_self">KWEB Homepage</a>
+    </p>    
+</div>
+<div id="insert-data">
+    <div class="question">
+        <h3>1. Write your name. </h3>
+        <input type="text" name="username">
+    </div>
+    <div class="question">
+        <h3>2. Write your student number.</h3>
+        <input type="text" name="studentnumber">
+    </div>
+    <div class="question">
+        <h3>3. Select your member level.</h3>
+        <div id="choose-level">
+            <label><input type="radio" name="level" value="admin">Admin</label>
+            <label><input type="radio" name="level" value="intern">Intern</label>
+            <label><input type="radio" name="level" value="qualified">Qualified</label>
+        </div>
+    </div>
+    <div class="question">
+        <h3>4. Select all fields you are interested in.</h3>
+        <div id="survey-check">
+            <label><input type="checkbox" name="interested" value="frontend">Front-end</label>
+            <label><input type="checkbox" name="interested" value="backend">Back-end</label>
+            <label><input type="checkbox" name="interested" value="webcraw">Web crawling</label>
+            <label><input type="checkbox" name="interested" value="websec">Web security</label>
+            <label><input type="checkbox" name="interested" value="etc">Etcetera
+                <input type="text" name="interested">
+            </label>
+        </div>
+    </div>
+    <div class="question">
+        <h3>5. Give us your overall evaluation and feedback about the previous study.</h3>
+        <div id="survey-feedback">
+            <textarea cols="80" rows="24"
+            name="feedback">
+            </textarea>
+        </div>
+    </div>
+</div>
+<div id="insert-button">
+    <p>
+    <button type="submit">Submit your answers</button>
+    </p>
+</div>
+</body>
+</html>
