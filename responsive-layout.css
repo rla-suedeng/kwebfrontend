@@ -1,0 +1,41 @@
+
+.header {
+    height: 100px;
+    margin : 5px 0;
+    background-color: pink;
+    border: 1px solid salmon;
+}
+
+.body .navbar{
+    height: 250px;
+    margin : 5px 0;
+    background-color: yellow;
+    border: 1px solid darkgoldenrod;
+}
+
+.body .content{
+    height:300px;
+    margin : 5px 0;
+    background-color: skyblue;
+    border: 1px solid blue;
+}
+
+.footer{
+    height:250px;
+    margin :5px 0;
+    background-color: lightgreen;
+    border: 1px solid green;
+}
+
+@media only screen and (min-width:800px){
+    .body .navbar{
+        height : 500px;
+        width: 20%;
+        display:inline-block;
+    }
+    .body .content{
+        height : 500px;
+        width: 78.5%;
+        display:inline-block;
+    }
+}
