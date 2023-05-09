@@ -1,0 +1,19 @@
+#scroll-button {
+    position: fixed;
+    color: white;
+    background-color: darkblue;
+    font-size: 10pt;
+    right: 30px;
+    bottom: 40px;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+}
+
+#scroll-button .scroll-button-symbol {
+    color: white;
+    padding: 5px 5px 6px 5px;
+}
+
+#scroll-button .scroll-button-symbol#scroll-button-gotop{
+    border-bottom: 2px solid white;
+}
